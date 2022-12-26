@@ -7,7 +7,9 @@ Cleaned the IMDB Movies Data of more 6000 rows using Jupyter Notebook, python li
 
 
 import numpy as np
+
 import pandas as pd
+
 import matplotlib.pyplot as plt
 
 
@@ -58,19 +60,33 @@ movies.isnull().sum(axis=0).sort_values(ascending=False)/len(movies) * 100
 ## Drop the unecessary coloumns.
 ## Coloumns which are irrelevant and to be dropped are:
    color
+   
    director_facebook_likes
+   
    actor_1_facebook_likes
+   
    actor_2_facebook_likes
+   
    actor_3_facebook_likes
+   
    actor_2_name
+   
    cast_total_facebook_likes
+   
    actor_3_name
+   
    duration
+   
    facenumber_in_poster
+   
    content_rating
+   
    country
+   
    movies_imdb_link
+   
    aspect_ratio
+   
    plot_keywords
 
 ## In[376]:
